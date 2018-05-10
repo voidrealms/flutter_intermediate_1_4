@@ -17,7 +17,7 @@ class _State extends State<MyApp> {
 
   Animals _selected = Animals.Cat;
   String _value = 'Make a Selection';
-  List _items = new List();
+  List<PopupMenuEntry<Animals>> _items = new List<PopupMenuEntry<Animals>>();
 
 
   @override
